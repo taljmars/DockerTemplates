@@ -63,3 +63,9 @@ mailer:latest
 durable-task:latest
 jquery-detached:latest
 ace-editor:latest
+
+handlebars:latest
+momentjs:latest
+icon-shim:latest
+cloudbees-folder:latest
+branch-api:latest
