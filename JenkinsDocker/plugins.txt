@@ -53,3 +53,7 @@ credentials:latest
 workflow-aggregator:latest
 display-url-api:latest
 workflow-cps-global-lib:latest
+
+workflow-step-api:latest
+plain-credentials:latest
+lockable-resources:latest
