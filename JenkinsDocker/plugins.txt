@@ -30,3 +30,12 @@ pipeline-stage-view:latest
 pipeline-utility-steps:latest
 scm-api:latest
 
+credentials-binding:latest
+workflow-basic-steps:latest
+workflow-scm-step:latest
+workflow-support:latest
+workflow-api:latest
+workflow-cps:latest
+workflow-multibranch:latest
+workflow-durable-task-step:latest
+workflow-job:latest
