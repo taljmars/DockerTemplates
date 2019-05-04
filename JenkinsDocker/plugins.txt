@@ -69,3 +69,5 @@ momentjs:latest
 icon-shim:latest
 cloudbees-folder:latest
 branch-api:latest
+
+authentication-tokens:latest
