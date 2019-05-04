@@ -57,3 +57,9 @@ workflow-cps-global-lib:latest
 workflow-step-api:latest
 plain-credentials:latest
 lockable-resources:latest
+
+matrix-project:latest
+mailer:latest
+durable-task:latest
+jquery-detached:latest
+ace-editor:latest
