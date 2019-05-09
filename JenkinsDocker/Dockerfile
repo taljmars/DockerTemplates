@@ -26,7 +26,7 @@ ENV M2_HOME /usr/local/apache-maven/apache-maven-3.0.4/
 ENV M2 $M2_HOME/bin
 
 RUN tar -zxvf /usr/share/jdk-8.tar.gz
-RUN mv jdk1.8.* /usr/lib/jvm/
+RUN mv jdk1.8.* /usr/lib/jvm/jdk-8
 RUN rm /usr/share/jdk-8.tar.gz
 
 # expose port
