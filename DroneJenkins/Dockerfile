@@ -2,7 +2,7 @@
 FROM taljmars/jenkins_enhanced
 MAINTAINER Tal Martsiano <taljmars@gmail.com>
 
-RUN cp -rp jobs /var/tmp/jenkins_tmp/
+COPY jobs /var/tmp/jenkins_tmp/
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
