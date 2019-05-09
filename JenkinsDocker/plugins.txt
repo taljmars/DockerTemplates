@@ -2,7 +2,7 @@
 simple-theme-plugin:latest
 docker-commons:latest
 docker-workflow:latest
-git-changelog:1.45
+git-changelog:latest
 git:latest
 git-client:latest
 git-server:latest
@@ -18,9 +18,9 @@ pipeline-build-step:latest
 pipeline-graph-analysis:latest
 pipeline-input-step:latest
 pipeline-milestone-step:latest
-pipeline-model-api:1.0.2
-pipeline-model-declarative-agent:1.0.2
-pipeline-model-definition:1.0.2
+pipeline-model-api:latest
+pipeline-model-declarative-agent:latest
+pipeline-model-definition:latest
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
 pipeline-rest-api:latest
@@ -71,3 +71,8 @@ cloudbees-folder:latest
 branch-api:latest
 
 authentication-tokens:latest
+
+antisamy-markup-formatter:latest
+pipeline-model-extensions:latest
+github-branch-source:latest
+
