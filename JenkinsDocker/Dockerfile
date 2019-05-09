@@ -29,6 +29,9 @@ RUN tar -zxvf /usr/share/jdk-8.tar.gz
 RUN mv jdk1.8.* /usr/lib/jvm/jdk-8
 RUN rm /usr/share/jdk-8.tar.gz
 
+COPY hudson.tasks.Maven.xml /var/jenkins_home/
+COPY config.xml /var/jenkins_home/
+
 # expose port
 #EXPOSE 50000
 #EXPOSE 8080
