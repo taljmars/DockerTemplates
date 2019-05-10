@@ -6,14 +6,16 @@ Deployable Ubuntu 14.04 with JDK 1.8 for general docker use or AWS Elastic Beant
 - Git
 
 ## Prerequisites
-Docker environment or AWS elastic beanstalk environment: single web server, docker and import 'Dockerrun.aws.json' file.
+Docker environment or AWS elastic beanstalk environment
 
 ## Usage
 ### AWS Usage
 Create a Elastic Beanstalk instance of Docker type and import 'Dockerrun.aws.json' file to it
 ### Docker Usage
 Running an image via docker 
+```
 $ sudo docker run -d taljmars/ubuntu1404_jdk8
+```
 
 Open Jenkins and enjoy http://<your-server-ip>
 
