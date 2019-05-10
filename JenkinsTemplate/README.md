@@ -13,7 +13,11 @@ The list of installed plugin can be found in plugins.txt file, if you wish to ch
 Create AWS elastic beanstalk environment: single web server, docker and import 'Dockerrun.aws.json' file.
 
 ## Usage 
-Open Jenkins and enjoy http://\<your-server-ip\>:80
+Open Jenkins and enjoy http://\<your-server-ip\>
+
+## Initial Access
+A single user is already configured in the jenkins named 'admin', password for this user exist in the following file:
+- /var/jenkins_home/secrets/initialAdminPassword 
 
 Enjoy !
 taljmars@gmail.com
