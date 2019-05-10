@@ -10,7 +10,7 @@ echo $p
 
 kill -9 $p
 
-cp /var/tmp/jenkins_tmp/* /var/jenkins_home/
+cp -rp /var/tmp/jenkins_tmp/* /var/jenkins_home/
 
 # run jenkins as usual
 /usr/local/bin/jenkins.sh
