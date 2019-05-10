@@ -1,4 +1,4 @@
-# JenkinsDocker
+# Jenkins Template
 
 Deployable Jenkins for AWS Elastic Beantalk. 
 Unlike the standard jenkins this one comes with the following enhancments:
