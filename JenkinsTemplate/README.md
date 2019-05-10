@@ -31,6 +31,7 @@ In case you would like to build the image localy based on this github branch, yo
 $ sudo docker build . -t <your-image-name>:latest
 $ sudo docker run <your-image-name>:latest
 ```
+Please mind!, you must put a JDK-8 installation (tgz file) in the cloned directory in order to make the build works.
 
 Enjoy !
 taljmars@gmail.com
