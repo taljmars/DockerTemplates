@@ -1,4 +1,4 @@
-# Dockers
+# Docker Templates
 
 This github repository contain templates of usefull docker images. the images are generic and doesn't contain any iformation or predified setting such as users, groups, passwords, etc..
 The purpose of these template is to make docker development and work easier.
