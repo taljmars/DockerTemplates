@@ -16,8 +16,7 @@ Create AWS elastic beanstalk environment: single web server, docker and import '
 Open Jenkins and enjoy http://\<your-server-ip\>
 
 ## Initial Access
-A single user is already configured in the jenkins named 'admin', password for this user exist in the following file:
-- /var/jenkins_home/secrets/initialAdminPassword 
+A single user is already configured in the jenkins named 'admin', password for this user exist in the  /var/jenkins_home/secrets/initialAdminPassword 
 
 Enjoy !
 taljmars@gmail.com
