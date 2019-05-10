@@ -28,7 +28,7 @@ A single user is already configured in the jenkins named 'admin', password for t
 ## Building
 In case you would like to build the image localy based on this github branch, you can always clone it localy and run the following:
 ```
-$ sudo docker build .-t <your-image-name>:latest
+$ sudo docker build . -t <your-image-name>:latest
 $ sudo docker run <your-image-name>:latest
 ```
 
