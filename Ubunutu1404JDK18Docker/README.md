@@ -14,9 +14,15 @@ Create a Elastic Beanstalk instance of Docker type and import 'Dockerrun.aws.jso
 ### Docker Usage
 Running an image via docker 
 ```
-$ sudo docker run -d taljmars/ubuntu1404_jdk8
+$ sudo docker run -d taljmars/ubuntu1404_jdk8:latest
 ```
 
-Open Jenkins and enjoy http://<your-server-ip>
+## Building
+In case you would like to build the image localy based on this github branch, you can always clone it localy and run the following:
+```
+$ sudo docker build .-t <your-image-name>:latest
+$ sudo docker run <your-image-name>:latest
+```
+
 
 Enjoy ! taljmars@gmail.com
